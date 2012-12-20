@@ -38,7 +38,7 @@ class phpSecurityClass
 	
 	public function name($input)
 	{
-		if (preg_match("/^([A-Za-z0-9_\-\.])+$/", $input))
+		if (preg_match("/^([A-Za-z0-9\'\ \.])+$/", $input))
 			return 1;	
 		
 		return 0;
@@ -46,7 +46,7 @@ class phpSecurityClass
 	
 	public function surname($input)
 	{
-		if (preg_match("/^([A-Za-z0-9_\-\'\.])+$/", $input))
+		if (preg_match("/^([A-Za-z0-9\'\ \.])+$/", $input))
 			return 1;	
 		
 		return 0;
