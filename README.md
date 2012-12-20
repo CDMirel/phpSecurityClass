@@ -8,7 +8,7 @@ Php regular expression for all html-input tag
 
 2) Add class after `<body>`:
 ```php
-<php 
+<?php 
  include("phpSecurityClass.php"); 
  $security = new phpSecurityClass();
 ?>
@@ -16,6 +16,7 @@ Php regular expression for all html-input tag
 
 2) Choose the appropriate function:
 ```php
+<?php 
 if($security->name("John Titor"){
 	echo "Correct Input";
 }else{

@@ -2,7 +2,7 @@ How to Install
 	1) Copy src/phpSecurityClass.php file on your website
 
 	2) Add class after `<body>`:
-	<php 
+	<?php 
 	     include("phpSecurityClass.php"); 
 	     $security = new phpSecurityClass();
 	?>
