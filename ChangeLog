@@ -1,2 +1,7 @@
+=================== 0.2 ===================
+~ Fix: function name() and surname() with òàùèéÒÀÙÈÉ
+~ Fix: replace "\ " with "\s" for space
+~ Add: examples.php file 
+
 =================== 0.1 ===================
 ~ Initial release

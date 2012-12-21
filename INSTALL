@@ -9,7 +9,7 @@ How to Install
 	
 	2) Use one of class function:
 	<?php
-		if($security->name("Joh Titor")){
+		if($security->name("John Titor")){
 			echo "Correct Input";
 		}else{
 			echo "Error";

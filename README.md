@@ -1,4 +1,4 @@
-#phpSecurityClass v0.1
+#phpSecurityClass v0.2
 
 Php regular expression for all html-input tag
 
@@ -17,7 +17,7 @@ Php regular expression for all html-input tag
 2) Choose the appropriate function:
 ```php
 <?php 
-if($security->name("Joh Titor")){
+if($security->name("John Titor")){
 	echo "Correct Input";
 }else{
 	echo "Error";
