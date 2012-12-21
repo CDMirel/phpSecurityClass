@@ -1,6 +1,6 @@
 #phpSecurityClass v0.2
 
-Php regular expression for all html-input tag
+Php regular expressions (regex) for all html-input tag
 
 ## How to Install
 

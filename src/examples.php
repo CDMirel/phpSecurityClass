@@ -20,7 +20,7 @@
 include("phpSecurityClass.php"); 
 $security = new phpSecurityClass();
 
-if($security->cap("John Titor")){
+if($security->name("John Titor")){
 	echo "Correct Input";
 }else{
 	echo "Error";
