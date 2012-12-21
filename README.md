@@ -1,4 +1,4 @@
-#phpSecurityClass v0.2.1
+#phpSecurityClass v0.2.2
 
 Php regular expressions (regex) for all html-input tag
 

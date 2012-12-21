@@ -1,3 +1,6 @@
+=================== 0.2.2 ===================
+~ Fix: function name() and surname() with ìíÌÍ
+
 =================== 0.2.1 ===================
 ~ Fix: function name() and surname() without number
 
