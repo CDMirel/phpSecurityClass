@@ -1,6 +1,6 @@
 <?php
 /*
- * phpSecurityClass v0.2
+ * phpSecurityClass v0.2.1
  *   Copyright (C) 2012  PTKDev
  *
  *   This program is free software: you can redistribute it and/or modify
@@ -38,7 +38,7 @@ class phpSecurityClass
 	
 	public function name($input)
 	{
-		if (preg_match("/^([A-Za-z0-9\à\ù\ò\è\é\È\É\Ò\À\Ù\'\s])+$/", $input))
+		if (preg_match("/^([A-Za-z\à\ù\ò\è\é\È\É\Ò\À\Ù\'\s])+$/", $input))
 			return 1;	
 		
 		return 0;
@@ -46,7 +46,7 @@ class phpSecurityClass
 	
 	public function surname($input)
 	{
-		if (preg_match("/^([A-Za-z0-9\à\ù\ò\è\é\È\É\Ò\À\Ù\'\s])+$/", $input))
+		if (preg_match("/^([A-Za-z\à\ù\ò\è\é\È\É\Ò\À\Ù\'\s])+$/", $input))
 			return 1;	
 		
 		return 0;

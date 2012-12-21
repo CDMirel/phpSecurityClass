@@ -1,6 +1,6 @@
 <?php 
 /*
- * phpSecurityClass v0.2
+ * phpSecurityClass v0.2.1
  *   Copyright (C) 2012  PTKDev
  *
  *   This program is free software: you can redistribute it and/or modify

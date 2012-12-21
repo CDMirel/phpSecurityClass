@@ -1,3 +1,6 @@
+=================== 0.2.1 ===================
+~ Fix: function name() and surname() without number
+
 =================== 0.2 ===================
 ~ Fix: function name() and surname() with òàùèéÒÀÙÈÉ
 ~ Fix: replace "\ " with "\s" for space
